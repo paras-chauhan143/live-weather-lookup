@@ -18,7 +18,7 @@ function updateData(data) {
 document.querySelector('button').addEventListener('click', () => {
   const place = document.getElementById("city-input").value;
 
-  const prom = fetch(`http://api.weatherapi.com/v1/current.json?key=15d5c2c1bc8d4f49a51113011252806&q=${place}&aqi=yes`);
+  const prom = fetch(`https://api.weatherapi.com/v1/current.json?key=15d5c2c1bc8d4f49a51113011252806&q=${place}&aqi=yes`);
 
 
   prom
